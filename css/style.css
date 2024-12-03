@@ -1,5 +1,30 @@
 
 /*** Spinner Start ***/
+/* body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container, .row, .col-*, .navbar, .footer, .carousel-inner img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.navbar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} */
+
+
+
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -12,6 +37,34 @@
      visibility: visible;
      opacity: 1;
  }
+ /* Fix logo size for smaller screens */
+.navbar {
+    width: 100%;
+    overflow: hidden;
+ 
+}
+
+.navbar-collapse {
+    overflow-x: hidden;
+
+}
+
+.carousel {
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+}
+.container, .row {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 
  .back-to-top {
     position: fixed;
@@ -24,6 +77,25 @@
     justify-content: center;
     transition: 0.5s;
     z-index: 99;
+}
+.whatsapp-icon{
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    transition: 5s;
+    z-index: 99;
+    background: var(--bs-secondary) !important;
+    border-radius: 100px;
+    font-size: 30px;
+    color: black;
+}
+a:hover i.fab.fa-whatsapp {
+    color: white;
 }
 /*** Spinner End ***/
 
@@ -112,7 +184,7 @@
 }
 
 .topbar .top-link a small:hover i {
-    color: var(--bs-primary) !important;
+    color: var(--bs-secondary) !important;
 }
 /*** Topbar End ***/
 
@@ -121,6 +193,7 @@
     padding: 10px 15px;
     font-size: 16px;
     transition: .5s;
+    
 }
 
 .navbar {
@@ -132,8 +205,31 @@
 .navbar .navbar-nav .nav-link.active,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: #007bff; /* Example color */
 }
+.navbar .navbar-nav .nav-link:hover {
+    color: #fab34f !important;
+}
+.navbar .navbar-nav .nav-link {
+    color: #324e7a !important;
+}
+
+/* Change the color of the selected page */
+.nav-item.nav-link.active {
+    color: #FF5733; /* Your desired active text color */
+    font-weight: bold; /* Optional: Make the text bold */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    border-radius: 5px; /* Optional: Round the edges */
+}
+
+/* On hover, add some visual feedback */
+.nav-item.nav-link:hover {
+    color: #007BFF; /* Change hover color */
+    /* text-decoration: underline; */
+     /* Optional: Add underline on hover */
+}
+
+
 
 .navbar .dropdown-toggle::after {
     border: none;
@@ -158,8 +254,8 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-secondary);
-    color: var(--bs-primary);
+    background: white;
+    color:#324e7a;
 }
 
 .navbar .nav-item:hover .dropdown-menu {
@@ -203,7 +299,7 @@
     height: 48px;
     border-radius: 48px;
     border: 1px solid var(--bs-white);
-    background: var(--bs-primary);
+    background: #324e7a;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -239,6 +335,31 @@
     }
 }
 /*** Hero Header end ***/
+
+
+
+/* Style for breadcrumb links */
+.breadcrumb-link {
+    color: #3498db; /* Change this to your desired color */
+    text-decoration: none; /* Remove underline if needed */
+}
+
+.breadcrumb-link:hover {
+    color: #1abc9c; /* Change this to a hover color */
+    /* text-decoration: underline;  */
+    /* Optional hover effect */
+}
+.breadcrumb a {
+    color:#e5e7eb;
+    text-decoration: none;
+   
+}
+
+.breadcrumb a:hover {
+    color: #fab34f;
+    /* text-decoration: underline; */
+}
+
 
 
 /*** featurs Start ***/
@@ -278,7 +399,7 @@
 
 /*** Fruits Start ***/
 .fruite .tab-class .nav-item a.active {
-    background: var(--bs-secondary) !important;
+    background: #324e7a !important;
 }
 
 .fruite .tab-class .nav-item a.active span {
@@ -294,7 +415,16 @@
 }
 
 .fruite .fruite-categorie .fruite-name a:hover {
+    color: var(--bs-dark);
+}
+.d-flex {
     color: var(--bs-secondary);
+}
+.fa-apple-alt {
+    color: var(--bs-secondary);
+}
+a{
+    color: var(--bs-dark);
 }
 
 .fruite .fruite-item {
@@ -354,7 +484,7 @@
     position: absolute;
     top: -8px;
     right: 0;
-    color: var(--bs-primary);
+    color: var(--bs-dark);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -371,7 +501,7 @@
     position: absolute;
     top: -8px;
     right: 88px;
-    color: var(--bs-primary);
+    color: var(--bs-dark);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -387,7 +517,7 @@
 
 /*** Banner Section Start ***/
 .banner .banner-btn:hover {
-    background: var(--bs-primary);
+    background: var(--bs-secondary);
 }
 /*** Banner Section End ***/
 
@@ -405,7 +535,7 @@
 }
 
 .counter h4 {
-    color: var(--bs-primary);
+    color:#324e7a;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -421,7 +551,7 @@
     position: absolute;
     top: -58px;
     right: 0;
-    color: var(--bs-primary);
+    color: var(--bs-dark);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -437,7 +567,7 @@
     position: absolute;
     top: -58px;
     right: 88px;
-    color: var(--bs-primary);
+    color: var(--bs-dark);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -466,12 +596,12 @@
 }
   
 .pagination a.active {
-    background-color: var(--bs-primary);
+    background-color: var(--bs-dark);
     color: var(--bs-light);
     border: 1px solid var(--bs-secondary);
 }
   
-.pagination a:hover:not(.active) {background-color: var(--bs-primary)}
+.pagination a:hover:not(.active) {background-color: var(--bs-dark)}
 
 .nav.nav-tabs .nav-link.active {
     border-bottom: 2px solid var(--bs-secondary) !important;
