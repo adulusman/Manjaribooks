@@ -1,5 +1,5 @@
 
-/*** Spinner Start ***/
+/* ** Spinner Start ***/
 /* body {
     margin: 0;
     padding: 0;
@@ -38,11 +38,21 @@
      opacity: 1;
  }
  /* Fix logo size for smaller screens */
-.navbar {
+ .navbar {
     width: 100%;
-    overflow: hidden;
- 
+    overflow: visible;
 }
+@media (max-width: 1200px) {
+    .navbar .dropdown-menu {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.fixed-top {
+    z-index: 1050; /* Bootstrap default for fixed elements */
+}
+
 
 .navbar-collapse {
     overflow-x: hidden;
@@ -57,7 +67,7 @@
     max-width: 100%;
     height: auto;
 }
-.container, .row {
+.row {
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -180,7 +190,7 @@ a:hover i.fab.fa-whatsapp {
 
 .topbar .top-link a small:hover {
     color: var(--bs-secondary) !important;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .topbar .top-link a small:hover i {
@@ -192,7 +202,7 @@ a:hover i.fab.fa-whatsapp {
 .navbar .navbar-nav .nav-link {
     padding: 10px 15px;
     font-size: 16px;
-    transition: .5s;
+    /* transition: .5s; */
     
 }
 
@@ -237,21 +247,21 @@ a:hover i.fab.fa-whatsapp {
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     vertical-align: middle;
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 @media (min-width: 1200px) {
     .navbar .nav-item .dropdown-menu {
-        display: block;
-        visibility: hidden;
-        top: 100%;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-        border: 0;
-        transition: .5s;
-        opacity: 0;
+        position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  overflow: hidden; 
+  
     }
 }
+
+
 
 .dropdown .dropdown-menu a:hover {
     background: white;
