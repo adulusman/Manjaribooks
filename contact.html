@@ -95,13 +95,15 @@
                         </div>
                         
                         <div class="col-lg-7">
-                            <form action="" class="">
-                                <input type="text" class="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name">
-                                <input type="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email">
-                                <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Your Message"></textarea>
-                                <button class="w-100 btn form-control border-secondary py-3 bg-white text-secondary " type="submit">Submit</button>
+                            <form id="contactForm" action="javascript:void(0);" method="post">
+                                <input type="text" id="name" class="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name" required>
+                                <input type="number" id="number" class="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Number" required>
+                                <textarea id="message" class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Your Message" required></textarea>
+                                <button class="w-100 btn form-control border-secondary py-3 bg-white text-secondary" type="submit">Submit</button>
                             </form>
                         </div>
+                        
+                        
                         <div class="col-lg-5">
                             <div class="d-flex p-4 rounded mb-4 bg-white">
                                 <i class="fas fa-map-marker-alt fa-2x text-secondary me-4"></i>
@@ -208,7 +210,29 @@
         <!-- Back to Top -->
         <a href="#" class="btn btn-secondary border-3 border-secondary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
+        <script>
+            // Function to generate WhatsApp link with form data
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                
+                // Get form data
+                var name = document.getElementById('name').value;
+                var number= document.getElementById('number').value;
+                var message = document.getElementById('message').value;
         
+                // Format the message
+                var whatsappMessage = `*Name:* ${name}\n*Number:* ${number}\n*Message:* ${message}`;
+                
+                // Replace with the recipient's phone number (including country code)
+                var phoneNumber = "8111989132"; // Example: +1 for USA or +91 for India
+                
+                // Create WhatsApp link
+                var whatsappLink = `https://wa.me/$+918111989132?text=${encodeURIComponent(whatsappMessage)}`;
+                
+                // Open WhatsApp with the generated message
+                window.open(whatsappLink, '_blank');
+            });
+        </script> 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
