@@ -130,48 +130,95 @@
      <div class="container-fluid service py-5">
         <div class="container py-5">
             <div class="row g-4 justify-content-center">
+                <!-- Service Item 1 -->
                 <div class="col-md-6 col-lg-4">
-                    <a href="#">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="loadModalContent('img/hero-img-1.svg')">
                         <div class="service-item bg-secondary rounded border border-secondary">
-                            <img src="img/featur-1.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="px-4 rounded-bottom">
-                                <div class="service-content  text-center p-4 rounded" style="background-color: #3770cc;">
-                                    <h5 class="text-white">Exclusive Collection</h5>
-                                    <h3 class="mb-0">20% OFF</h3>
-                                </div>
-                            </div>
+                            <img src="img/hero-img-1.svg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="px-4 rounded-bottom"></div>
                         </div>
                     </a>
                 </div>
+                <!-- Service Item 2 -->
                 <div class="col-md-6 col-lg-4">
-                    <a href="#">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="loadModalContent('img/hero-img-2.jpg')">
                         <div class="service-item bg-dark rounded border border-dark">
-                            <img src="img/featur-2.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="px-4 rounded-bottom">
-                                <div class="service-content bg-light text-center p-4 rounded">
-                                    <h5 class="text-secondary">All Products</h5>
-                                    <h3 class="mb-0">Free delivery</h3>
-                                </div>
-                            </div>
+                            <img src="img/hero-img-2.jpg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="px-4 rounded-bottom"></div>
                         </div>
                     </a>
                 </div>
+                <!-- Service Item 3 -->
                 <div class="col-md-6 col-lg-4">
-                    <a href="#">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="loadModalContent('img/hero-img-3.jpg')">
                         <div class="service-item rounded border border-primary" style="background-color:#324e7a;">
-                            <img src="img/featur-3.jpg" class="img-fluid rounded-top w-100" alt="">
-                            <div class="px-4 rounded-bottom">
-                                <div class="service-content bg-secondary text-center p-4 rounded">
-                                    <h5 class="text-white">Oldest collections</h5>
-                                    <h3 class="mb-0">Discount 30₹</h3>
-                                </div>
-                            </div>
+                            <img src="img/hero-img-3.jpg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="px-4 rounded-bottom"></div>
                         </div>
                     </a>
                 </div>
             </div>
+            <!-- Additional Rows -->
+            <div class="row g-4 justify-content-center">
+                <!-- Service Item 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="loadModalContent('img/hero-img-4.jpg')">
+                        <div class="service-item bg-secondary rounded border border-secondary">
+                            <img src="img/hero-img-4.jpg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="px-4 rounded-bottom"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Service Item 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="loadModalContent('img/hero-img-5.jpg')">
+                        <div class="service-item bg-dark rounded border border-dark">
+                            <img src="img/hero-img-5.jpg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="px-4 rounded-bottom"></div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Service Item 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="loadModalContent('img/hero-img-6.jpg')">
+                        <div class="service-item rounded border border-primary" style="background-color:#324e7a;">
+                            <img src="img/hero-img-6.jpg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="px-4 rounded-bottom"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Service Item 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="loadModalContent('img/hero-img-7.jpg')">
+                        <div class="service-item bg-secondary rounded border border-secondary">
+                            <img src="img/hero-img-7.jpg" class="img-fluid rounded-top w-100" alt="">
+                            <div class="px-4 rounded-bottom"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Repeat the same structure for other rows -->
         </div>
     </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="serviceModalLabel">Service Preview</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" class="img-fluid rounded" alt="Service Preview">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  
     <!-- Featurs End -->
 
 
@@ -241,6 +288,13 @@
             </div>
         </div>
 
+        <script>
+        // JavaScript to load the content dynamically
+        function loadModalContent(imageSrc) {
+            document.getElementById('modalImage').src = imageSrc;
+        }
+    
+        </script>
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

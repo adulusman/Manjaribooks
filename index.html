@@ -137,11 +137,13 @@
               id="carouselId"
               class="carousel slide position-relative"
               data-bs-ride="carousel"
+              data-bs-toggle="modal"
+              data-bs-target="#carouselModal"
             >
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active rounded">
                   <img
-                    src="img/hero-img-1.png"
+                    src="img/hero-img-1.svg"
                     class="img-fluid w-100 h-100 bg-secondary rounded"
                     alt="First slide"
                   />
@@ -157,35 +159,7 @@
                   <img
                     src="img/hero-img-3.jpg"
                     class="img-fluid w-100 h-100 rounded"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item rounded">
-                  <img
-                    src="img/hero-img-4.jpg"
-                    class="img-fluid w-100 h-100 rounded"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item rounded">
-                  <img
-                    src="img/hero-img-5.jpg"
-                    class="img-fluid w-100 h-100 rounded"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item rounded">
-                  <img
-                    src="img/hero-img-6.jpg"
-                    class="img-fluid w-100 h-100 rounded"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item rounded">
-                  <img
-                    src="img/hero-img-7.jpg"
-                    class="img-fluid w-100 h-100 rounded"
-                    alt="Second slide"
+                    alt="Third slide"
                   />
                 </div>
               </div>
@@ -215,6 +189,85 @@
               </button>
             </div>
           </div>
+          
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="carouselModal"
+            tabindex="-1"
+            aria-labelledby="carouselModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <!-- <h5 class="modal-title" id="carouselModalLabel">Carousel Preview</h5> -->
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    id="carouselModalId"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/hero-img-1.png"
+                          class="img-fluid w-100"
+                          alt="First slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/hero-img-2.jpg"
+                          class="img-fluid w-100"
+                          alt="Second slide"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/hero-img-3.jpg"
+                          class="img-fluid w-100"
+                          alt="Third slide"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselModalId"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselModalId"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -1132,7 +1185,7 @@
     <!-- Featurs End -->
 
     <!-- Vesitable Shop Start-->
-    <div class="container-fluid vesitable py-5">
+     <div class="container-fluid vesitable py-5">
       <div class="container py-5">
         <h1 class="mb-0">Exclusive collections</h1>
         <div class="owl-carousel vegetable-carousel justify-content-center">
@@ -1141,7 +1194,7 @@
           >
             <div class="vesitable-img">
               <img
-                src="img/vegetable-item-6.jpg"
+                src="img/anubhava01.svg"
                 class="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -1149,21 +1202,16 @@
             <div
               class="text-white bg-dark px-3 py-1 rounded position-absolute"
               style="top: 10px; right: 10px"
-            >
-              Story
+            >അനുഭവക്കുറിപ്പ്
             </div>
             <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
+              <h5>മാന്ത്രിക പരവതാനി <br><br></h5>
               <div class="d-flex justify-content-between flex-lg-wrap">
                 <a
                   href="#"
                   class="btn border border-secondary rounded-pill px-3"
                   style="color: #324e7a"
-                  >500₹</a
+                  >160₹</a
                 >
               </div>
             </div>
@@ -1173,7 +1221,7 @@
           >
             <div class="vesitable-img">
               <img
-                src="img/vegetable-item-1.jpg"
+                src="img/narmmam01.svg"
                 class="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -1182,20 +1230,16 @@
               class="text-white bg-dark px-3 py-1 rounded position-absolute"
               style="top: 10px; right: 10px"
             >
-              Story
+            നർമ്മങ്ങൾ
             </div>
             <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
+              <h4>50 നർമ്മങ്ങൾ <br><br></h4>
               <div class="d-flex justify-content-between flex-lg-wrap">
                 <a
                   href="#"
                   class="btn border border-secondary rounded-pill px-3"
                   style="color: #324e7a"
-                  >500₹</a
+                  >120₹</a
                 >
               </div>
             </div>
@@ -1205,7 +1249,7 @@
           >
             <div class="vesitable-img">
               <img
-                src="img/vegetable-item-3.png"
+                src="img/bala02.svg"
                 class="img-fluid w-100 rounded-top bg-light"
                 alt=""
               />
@@ -1214,20 +1258,16 @@
               class="text-white bg-dark px-3 py-1 rounded position-absolute"
               style="top: 10px; right: 10px"
             >
-              Story
+            ബാലസാഹിത്യം
             </div>
             <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
+              <h4>പാടാം ചെല്ലാം <br><br></h4>
               <div class="d-flex justify-content-between flex-lg-wrap">
                 <a
                   href="#"
                   class="btn border border-secondary rounded-pill px-3"
                   style="color: #324e7a"
-                  >500₹</a
+                  >120₹</a
                 >
               </div>
             </div>
@@ -1237,7 +1277,7 @@
           >
             <div class="vesitable-img">
               <img
-                src="img/vegetable-item-4.jpg"
+                src="img/ലേഖനങ്ങൾ02.svg"
                 class="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -1246,20 +1286,16 @@
               class="text-white bg-dark px-3 py-1 rounded position-absolute"
               style="top: 10px; right: 10px"
             >
-              Story
+            ലേഖനങ്ങൾ
             </div>
             <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
+              <h4>മൊകേരി വെടിവെപ്പ്</h4>
               <div class="d-flex justify-content-between flex-lg-wrap">
                 <a
                   href="#"
                   class="btn border border-secondary rounded-pill px-3"
                   style="color: #324e7a"
-                  >500₹</a
+                  >100₹</a
                 >
               </div>
             </div>
@@ -1269,7 +1305,7 @@
           >
             <div class="vesitable-img">
               <img
-                src="img/vegetable-item-5.jpg"
+                src="img/നോവൽ07.svg"
                 class="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -1278,20 +1314,16 @@
               class="text-white bg-dark px-3 py-1 rounded position-absolute"
               style="top: 10px; right: 10px"
             >
-              Story
+            നോവൽ
             </div>
             <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
+              <h4>പാതയോരം <br><br></h4>
               <div class="d-flex justify-content-between flex-lg-wrap">
                 <a
                   href="#"
                   class="btn border border-secondary rounded-pill px-3"
                   style="color: #324e7a"
-                  >500₹</a
+                  >100₹</a
                 >
               </div>
             </div>
@@ -1301,7 +1333,7 @@
           >
             <div class="vesitable-img">
               <img
-                src="img/vegetable-item-6.jpg"
+                src="img/കഥകൾ06.svg"
                 class="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -1310,20 +1342,17 @@
               class="text-white bg-dark px-3 py-1 rounded position-absolute"
               style="top: 10px; right: 10px"
             >
-              Story
+              കഥകൾ
             </div>
             <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
+              <h4>പെണ്ണുടൽ പെയ്ത്ത്</h4>
+            
               <div class="d-flex justify-content-between flex-lg-wrap">
                 <a
                   href="#"
                   class="btn border border-secondary rounded-pill px-3"
                   style="color: #324e7a"
-                  >500₹</a
+                  >120₹</a
                 >
               </div>
             </div>
@@ -1333,7 +1362,7 @@
           >
             <div class="vesitable-img">
               <img
-                src="img/vegetable-item-5.jpg"
+                src="img/കവിതകൾ2.svg"
                 class="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -1342,59 +1371,24 @@
               class="text-white bg-dark px-3 py-1 rounded position-absolute"
               style="top: 10px; right: 10px"
             >
-              Story
+            കവിതകൾ
             </div>
             <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
+              <h5>അക്ഷരദക്ഷിണ <br><br></h5>
               <div class="d-flex justify-content-between flex-lg-wrap">
                 <a
                   href="#"
                   class="btn border border-secondary rounded-pill px-3"
                   style="color: #324e7a"
-                  >500₹</a
+                  >150₹</a
                 >
               </div>
             </div>
           </div>
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/vegetable-item-6.jpg"
-                class="img-fluid w-100 rounded-top"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >
-              Story
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h4>STORY</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod te incididunt
-              </p>
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >500₹</a
-                >
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
-    </div>
+    </div> 
     <!-- Vesitable Shop End -->
 
     <!-- Banner Section Start-->
@@ -1419,7 +1413,7 @@
           <div class="col-lg-6">
             <div class="position-relative">
               <img
-                src="img/baner-1.png"
+                src="img/banner.svg"
                 class="img-fluid w-100 rounded"
                 alt=""
               />
@@ -1429,7 +1423,7 @@
               >
                 <h1 style="font-size: 100px">1</h1>
                 <div class="d-flex flex-column">
-                  <span class="h2 mb-0">500₹</span>
+                  <span class="h2 mb-0">120₹</span>
                   <span class="h4 text-muted mb-0">piece</span>
                 </div>
               </div>
@@ -1441,7 +1435,7 @@
     <!-- Banner Section End -->
 
     <!-- Bestsaler Product Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
       <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 700px">
           <h1 class="display-4">Bestseller Products</h1>
@@ -1462,7 +1456,7 @@
                   />
                 </div>
                 <div class="col-6">
-                  <a href="#" class="h5">POEM</a>
+                  <a href="#" class="h5">അനുഭവക്കുറിപ്പ്</a>
                   <div class="d-flex my-3">
                     <i class="fas fa-star text-secondary"></i>
                     <i class="fas fa-star text-secondary"></i>
@@ -1740,7 +1734,7 @@
         </div>
       </div>
     </div>
-    <hr />
+    <hr /> -->
     <!-- Bestsaler Product End -->
 
     <!-- Fact Start -->
@@ -1798,22 +1792,21 @@
               ></i>
               <div class="mb-4 pb-4 border-bottom border-secondary">
                 <p class="mb-0">
-                  Lorem Ipsum is simply dummy text of the printing Ipsum has
-                  been the industry's standard dummy text ever since the 1500s,
+                  "My experience with Manjari Books has been wonderful. They offer a wide range of books with excellent quality, and I’ve always been impressed with their selection and service."
                 </p>
               </div>
               <div class="d-flex align-items-center flex-nowrap">
                 <div class="bg-secondary rounded">
                   <img
-                    src="img/testimonial-1.jpg"
+                    src="img/review.svg"
                     class="img-fluid rounded"
                     style="width: 100px; height: 100px"
                     alt=""
                   />
                 </div>
                 <div class="ms-4 d-block">
-                  <h4 class="text-dark">Client Name</h4>
-                  <p class="m-0 pb-3">Profession</p>
+                  <h4 class="text-dark">Ahamed Basith</h4>
+                  <!-- <p class="m-0 pb-3">Profession</p> -->
                   <div class="d-flex pe-5">
                     <i class="fas fa-star text-secondary"></i>
                     <i class="fas fa-star text-secondary"></i>
@@ -1833,22 +1826,21 @@
               ></i>
               <div class="mb-4 pb-4 border-bottom border-secondary">
                 <p class="mb-0">
-                  Lorem Ipsum is simply dummy text of the printing Ipsum has
-                  been the industry's standard dummy text ever since the 1500s,
+                  "I’ve had a great experience purchasing from Manjari Books. Their collection is diverse, and the quality of the books is top-notch, making every purchase a delightful one."
                 </p>
               </div>
               <div class="d-flex align-items-center flex-nowrap">
                 <div class="bg-secondary rounded">
                   <img
-                    src="img/testimonial-1.jpg"
+                    src="img/review01.svg"
                     class="img-fluid rounded"
                     style="width: 100px; height: 100px"
                     alt=""
                   />
                 </div>
                 <div class="ms-4 d-block">
-                  <h4 class="text-dark">Client Name</h4>
-                  <p class="m-0 pb-3">Profession</p>
+                  <h4 class="text-dark">Adul M</h4>
+                  <!-- <p class="m-0 pb-3">Profession</p> -->
                   <div class="d-flex pe-5">
                     <i class="fas fa-star text-secondary"></i>
                     <i class="fas fa-star text-secondary"></i>
@@ -1868,21 +1860,20 @@
               ></i>
               <div class="mb-4 pb-4 border-bottom border-secondary">
                 <p class="mb-0">
-                  Lorem Ipsum is simply dummy text of the printing Ipsum has
-                  been the industry's standard dummy text ever since the 1500s,
+                  "Manjari Books has consistently provided me with a fantastic selection of books. Their quality and service have always exceeded my expectations, making each purchase a pleasure."
                 </p>
               </div>
               <div class="d-flex align-items-center flex-nowrap">
                 <div class="bg-secondary rounded">
                   <img
-                    src="img/testimonial-1.jpg"
+                    src="img/review02.svg"
                     class="img-fluid rounded"
                     style="width: 100px; height: 100px"
                     alt=""
                   />
                 </div>
                 <div class="ms-4 d-block">
-                  <h4 class="text-dark">Client Name</h4>
+                  <h4 class="text-dark">Shaima Raiheen</h4>
                   <p class="m-0 pb-3">Profession</p>
                   <div class="d-flex pe-5">
                     <i class="fas fa-star text-secondary"></i>
