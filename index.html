@@ -1,270 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>MANJARY BOOKS</title>
-    <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
-    <link rel="shortcut icon" href="img/logo/logo01.svg" />
+<head>
+  <meta charset="utf-8" />
+  <title>MANJARY BOOKS</title>
+  <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap"
-      rel="stylesheet"
-    />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+  <link rel="shortcut icon" href="img/logo/logo01.svg" />
 
-    <!-- Icon Font Stylesheet -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap"
+    rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <!-- Icon Font Stylesheet -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Libraries Stylesheet -->
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <body>
-    <div
-      id="spinner"
-      class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
-    >
-      <div class="spinner-grow text-secondary" role="status"></div>
-    </div>
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+  <style>
+    @media (max-width: 768px) {
+      .hide-mobile {
+        display: none;
+      }
+    }
 
-    <!-- Navbar start -->
-    <div class="container-fluid fixed-top">
-      <div
-        class="container topbar d-none d-lg-block"
-        style="background-color: #324e7a"
-      >
-        <div class="d-flex justify-content-between">
-          <div class="top-info ps-2">
-            <small class="me-3"
-              ><i class="fas fa-map-marker-alt me-2 text-secondary"></i>
-              <a href="#" class="text-white"
-                >ground floor,Royal Garden college Road Kothamangalam</a
-              ></small
-            >
-            <small class="me-3"
-              ><i class="fas fa-envelope me-2 text-secondary"></i
-              ><a href="#" class="text-white"
-                >manjaribooks2024@gmail.com</a
-              ></small
-            >
-          </div>
-          
+  </style>
+</head>
+
+<body>
+  <div id="spinner"
+    class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-secondary" role="status"></div>
+  </div>
+
+  <!-- Navbar start -->
+  <div class="container-fluid fixed-top">
+    <div class="container topbar d-none d-lg-block" style="background-color: #324e7a">
+      <div class="d-flex justify-content-between">
+        <div class="top-info ps-2">
+          <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+            <a href="#" class="text-white">ground floor,Royal Garden college Road Kothamangalam</a></small>
+          <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#"
+              class="text-white">manjaribooks2024@gmail.com</a></small>
         </div>
+
       </div>
-      <div class="container px-0">
-        <nav class="navbar navbar-light bg-white navbar-expand-xl">
-          <img style="width: 230px" src="img/logo/logo.svg" alt="LOGO" />
-          <!-- <h1
+    </div>
+    <div class="container px-0">
+      <nav class="navbar navbar-light bg-white navbar-expand-xl">
+        <img style="width: 230px" src="img/logo/logo.svg" alt="LOGO" />
+        <!-- <h1
             class="text display-6"
             style="position: relative; top: 10px; color: #324e7a"
           >
             MANJARI BOOKS
           </h1> -->
-          <button
-            class="navbar-toggler py-2 px-3"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
-            <span class="fa fa-bars text-secondary"></span>
-          </button>
-          <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
-            <div class="navbar-nav mx-auto">
-              <a href="index.html" class="nav-item nav-link active">Home</a>
-              <a href="About.html" class="nav-item nav-link">About</a>
-              <a href="Gallary.html" class="nav-item nav-link">Gallary</a>
-              <a href="events.html" class="nav-item nav-link">Events</a>
-              <a href="booklist.html" class="nav-item nav-link">booklist</a>
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
+        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse">
+          <span class="fa fa-bars text-secondary"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+          <div class="navbar-nav mx-auto">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="About.html" class="nav-item nav-link">About</a>
+            <a href="Gallary.html" class="nav-item nav-link">Gallary</a>
+            <a href="events.html" class="nav-item nav-link">Events</a>
+            <a href="booklist.html" class="nav-item nav-link">booklist</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </div>
-    <!-- Navbar End -->
-    <!-- Hero Start -->
-    <div class="container-fluid py-5 mb-5 hero-header">
-      <div class="container py-5">
-        <div class="row g-5 align-items-center">
-          <div class="col-md-12 col-lg-7">
-            <p style="color: black">
-              എറണാകുളം ജില്ലയിലെ കോതമംഗലം ആസ്ഥാനമായി പ്രവർത്തിക്കുന്ന
-              പ്രസാധകശാലയാണ് മഞ്ജരി ബുക്ക്സ് കുറഞ്ഞ കാലം കൊണ്ട് അയ്യായിരത്തിൽ
-              ഏറെ എഴുത്തുകാരെ സംയോജിപ്പിക്കാൻ മഞ്ജരി ബുക്സിന് കഴിഞ്ഞിട്ടുണ്ട് .
-              <b
-                >46 ഇഞ്ച് പൊക്കവും 18404 പേജുകളും ഉള്ള പെൻഡ്രൈവ് എന്ന ലോകത്തിലെ
-                ഏറ്റവും വലിയ സാഹിത്യ പുസ്തകം മഞ്ജരി ബുക്കിന്റെ സംഭാവനയാണ്.</b
-              >
-              വായനയുടെയും സാഹിത്യത്തിൻ്റെയും പ്രാധാന്യം പ്രോത്സാഹിപ്പിക്കുക
-              എന്നതാണ് ഞങ്ങളുടെ ലക്ഷ്യം. കുട്ടികൾക്കും മുതിർന്നവർക്കും, മലയാളം,
-              ഇംഗ്ലീഷ്, ഭാഷകളിൽ ചെറുകഥകൾ, നോവലുകൾ, ഉപന്യാസങ്ങൾ, സാഹിത്യം
-              തുടങ്ങിയ അവരുടെ രചനകൾ പ്രോത്സാഹിപ്പിക്കുന്നതിന് ഞങ്ങൾ എന്നും
-              മുൻപതിയിൽ ഉണ്ട്.
-            </p>
-          </div>
-          <div class="col-md-12 col-lg-5">
-            <div
-              id="carouselId"
-              class="carousel slide position-relative"
-              data-bs-ride="carousel"
-              data-bs-toggle="modal"
-              data-bs-target="#carouselModal"
-            >
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active rounded">
-                  <img
-                    src="img/hero-img-1.svg"
-                    class="img-fluid w-100 h-100 bg-secondary rounded"
-                    alt="First slide"
-                  />
-                </div>
-                <div class="carousel-item rounded">
-                  <img
-                    src="img/hero-img-2.jpg"
-                    class="img-fluid w-100 h-100 rounded"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item rounded">
-                  <img
-                    src="img/hero-img-3.jpg"
-                    class="img-fluid w-100 h-100 rounded"
-                    alt="Third slide"
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselId"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselId"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          
-          <!-- Modal -->
+  </div>
+  <br>
+  <br>
+  <!-- Navbar End -->
+
+  <div class="mobile" style="height: 150px;">
+
+  </div>
+
+
+
+
+
+
+  <!-- Hero Start -->
+
+
+  <section>
+    <div style="display: flex; gap: 20px; padding: 20px; font-family: Arial, sans-serif; ">
+      <!-- Left placeholder image -->
+      <div style="flex: 1;" class="hide-mobile">
+        <img src="/img/900x600Main_image.svg" alt="Book pages"
+          style="width: 100%; height: 475px; object-fit: fill; border-radius: 4px; background-color: burlywood;">
+      </div>
+
+      <!-- Right section -->
+      <div style="flex: 1;">
+        <h2 style="color: #0066cc; margin-bottom: 30px; font-size: 24px;">പുതിയ പ്രൊജക്റ്റ്</h2>
+
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+          <!-- First Card -->
           <div
-            class="modal fade"
-            id="carouselModal"
-            tabindex="-1"
-            aria-labelledby="carouselModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <!-- <h5 class="modal-title" id="carouselModalLabel">Carousel Preview</h5> -->
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div
-                    id="carouselModalId"
-                    class="carousel slide"
-                    data-bs-ride="carousel"
-                  >
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img
-                          src="img/hero-img-1.png"
-                          class="img-fluid w-100"
-                          alt="First slide"
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="img/hero-img-2.jpg"
-                          class="img-fluid w-100"
-                          alt="Second slide"
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="img/hero-img-3.jpg"
-                          class="img-fluid w-100"
-                          alt="Third slide"
-                        />
-                      </div>
-                    </div>
-                    <button
-                      class="carousel-control-prev"
-                      type="button"
-                      data-bs-target="#carouselModalId"
-                      data-bs-slide="prev"
-                    >
-                      <span
-                        class="carousel-control-prev-icon"
-                        aria-hidden="true"
-                      ></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                      class="carousel-control-next"
-                      type="button"
-                      data-bs-target="#carouselModalId"
-                      data-bs-slide="next"
-                    >
-                      <span
-                        class="carousel-control-next-icon"
-                        aria-hidden="true"
-                      ></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
+            style="background: linear-gradient(to right, #4834d4, #686de0); padding: 20px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; height: 200px;">
+            <div style="color: white;">
+              <h3 style="margin: 0 0 5px 0; font-size: 18px; color: white;">Title of Book</h3>
+              <p style="margin: 0 0 5px 0; font-size: 14px; color: rgba(255,255,255,0.9);">Author name</p>
+              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">Year: 2025</p>
             </div>
+            <img src="/img/anubhava02.svg" alt="Book pages"
+              style="width: 120px; height: 140px; object-fit: cover; border-radius: 4px;">
           </div>
-          
+
+
+          <div
+            style="background: linear-gradient(to right, #686de0, #40c9ff); padding: 20px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; height: 200px;">
+            <img src="/img/anubhava02.svg" alt="Book pages"
+              style="width: 120px; height: 140px; object-fit: cover; border-radius: 4px;">
+            <div style="color: white;">
+
+              <h3 style="margin: 0 0 5px 0; font-size: 18px;">Title of Book</h3>
+              <p style="margin: 0 0 5px 0; font-size: 14px; color: rgba(255,255,255,0.9);">Author name</p>
+              <p style="margin: 0; font-size: 14px; color: rgba(255,255,255,0.9);">Year: 2025</p>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
-    <!-- Hero End -->
+  </section>
 
-    <!-- Featurs Section Start -->
-    <div class="container-fluid featurs py-5">
+
+
+  <!-- Featurs Section Start -->
+  <!-- <div class="container-fluid featurs py-5">
       <div class="container py-5">
         <div class="row g-4">
           <div class="col-md-6 col-lg-3">
@@ -325,1552 +208,783 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- Featurs Section End -->
+    </div> -->
+  <!-- Featurs Section End -->
 
-    <!-- Fruits Shop Start-->
-    <div class="container-fluid fruite py-5">
-      <div class="container py-5">
-        <div class="tab-class text-center">
-          <div class="row g-4">
-            <div class="col-lg-4 text-start">
-              <h1>Our Books Collection</h1>
-            </div>
-            <div class="col-lg-8 text-end">
-              <ul class="nav nav-pills d-inline-flex text-center mb-5">
-                <li class="nav-item">
-                  <a
-                    class="d-flex m-2 py-2 bg-light rounded-pill active"
-                    data-bs-toggle="pill"
-                    href="#tab-1"
-                  >
-                    <span class="text-dark" style="width: 160px"
-                      >അനുഭവക്കുറിപ്പ്</span
-                    >
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="d-flex py-2 m-2 bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-2"
-                  >
-                    <span class="text-dark" style="width: 130px"
-                      >നർമ്മങ്ങൾ</span
-                    >
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="d-flex m-2 py-2 bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <span class="text-dark" style="width: 160px"
-                      >ബാലസാഹിത്യം</span
-                    >
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="d-flex m-2 py-2 bg-light rounded-pill"
-                    data-bs-toggle="pill"
-                    href="#tab-4"
-                  >
-                    <span class="text-dark" style="width: 130px">നോവൽ</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="d-flex m-2 py-2 bg-light rounded-pill"
-                   
-                    href="booklist.html"
-                  >
-                    <span class="text-dark" style="width: 130px">more</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="tab-content">
-            <div id="tab-1" class="tab-pane fade show p-0 active">
-              <div class="row g-4">
-                <div class="col-lg-12">
-                  <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/anubhava01.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
+  <!-- Fruits Shop Start-->
 
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>മാന്ത്രിക പരവതാനി</h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >160₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/anubhava02.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>അഹം <br /><br /></h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >100₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/anubhava03.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>നിഴൽവേരുകൾ <br /><br /></h5>
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >100₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/anubhava04.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>പേരില്ലാത്തവർ <br /><br /></h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >150₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="tab-2" class="tab-pane fade show p-0">
-              <div class="row g-4">
-                <div class="col-lg-12">
-                  <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/narmmam01.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>50 നർമ്മങ്ങൾ <br><br></h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >120₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/narmmam02.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>പട്ടാളം പരമു <br /><br /></h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >100₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/narmmam03.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>മിനി നർമകഥകൾ</h5>
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >150₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="tab-3" class="tab-pane fade show p-0">
-              <div class="row g-4">
-                <div class="col-lg-12">
-                  <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/bala01.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5 style="font-family: Noto Sans Malayalam" , serif;>
-                            എന്റെ മിന്നാമിന്നികൾ
-                          </h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >120₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/bala02.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>പാടാം ചെല്ലാം <br /><br /></h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >120₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/bala03.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5>തണ്ണിമത്തൻ<br /><br /></h5>
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >70₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="rounded position-relative fruite-item">
-                        <div class="fruite-img">
-                          <img
-                            src="img/bala04.svg"
-                            class="img-fluid w-100 rounded-top"
-                            alt=""
-                          />
-                        </div>
-
-                        <div
-                          class="p-4 border border-secondary border-top-0 rounded-bottom"
-                        >
-                          <h5 style="font-family: Noto Sans Malayalam" , serif;>
-                            കുഞ്ഞിമതുവിന്റെ സ്വപ്നയാത്ര
-                          </h5>
-
-                          <div
-                            class="d-flex justify-content-between flex-lg-wrap"
-                          >
-                            <a
-                              href="#"
-                              class="btn border border-secondary rounded-pill px-3"
-                              style="color: #324e7a"
-                              >120₹</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row g-4">
-                      <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="rounded position-relative fruite-item">
-                          <div class="fruite-img">
-                            <img
-                              src="img/bala05.svg"
-                              class="img-fluid w-100 rounded-top"
-                              alt=""
-                            />
-                          </div>
-
-                          <div
-                            class="p-4 border border-secondary border-top-0 rounded-bottom"
-                          >
-                            <h5
-                              style="font-family: Noto Sans Malayalam"
-                              ,
-                              serif;
-                            >
-                              മനസിന്റെ വർണ്ണങ്ങൾ
-                            </h5>
-
-                            <div
-                              class="d-flex justify-content-between flex-lg-wrap"
-                            >
-                              <a
-                                href="#"
-                                class="btn border border-secondary rounded-pill px-3"
-                                style="color: #324e7a"
-                                >140₹</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="rounded position-relative fruite-item">
-                          <div class="fruite-img">
-                            <img
-                              src="img/bala06.svg"
-                              class="img-fluid w-100 rounded-top"
-                              alt=""
-                            />
-                          </div>
-                          <div
-                            class="p-4 border border-secondary border-top-0 rounded-bottom"
-                          >
-                            <h5>സാറ്റാൺ <br /><br /></h5>
-
-                            <div
-                              class="d-flex justify-content-between flex-lg-wrap"
-                            >
-                              <a
-                                href="#"
-                                class="btn border border-secondary rounded-pill px-3"
-                                style="color: #324e7a"
-                                >140₹</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="rounded position-relative fruite-item">
-                          <div class="fruite-img">
-                            <img
-                              src="img/bala07.svg"
-                              class="img-fluid w-100 rounded-top"
-                              alt=""
-                            />
-                          </div>
-
-                          <div
-                            class="p-4 border border-secondary border-top-0 rounded-bottom"
-                          >
-                            <h5>മധുര നെല്ലിക <br /><br /></h5>
-                            <div
-                              class="d-flex justify-content-between flex-lg-wrap"
-                            >
-                              <a
-                                href="#"
-                                class="btn border border-secondary rounded-pill px-3"
-                                style="color: #324e7a"
-                                >120₹</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="rounded position-relative fruite-item">
-                          <div class="fruite-img">
-                            <img
-                              src="img/bala08.svg"
-                              class="img-fluid w-100 rounded-top"
-                              alt=""
-                            />
-                          </div>
-
-                          <div
-                            class="p-4 border border-secondary border-top-0 rounded-bottom"
-                          >
-                            <h5>അമ്മുണ്ണിക്കഥകൾ <br /><br /></h5>
-
-                            <div
-                              class="d-flex justify-content-between flex-lg-wrap"
-                            >
-                              <a
-                                href="#"
-                                class="btn border border-secondary rounded-pill px-3"
-                                style="color: #324e7a"
-                                >120₹</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-4 col-xl-3">
-                        <div class="rounded position-relative fruite-item">
-                          <div class="fruite-img">
-                            <img
-                              src="img/bala09.svg"
-                              class="img-fluid w-100 rounded-top"
-                              alt=""
-                            />
-                          </div>
-    
-                          <div
-                            class="p-4 border border-secondary border-top-0 rounded-bottom"
-                          >
-                            <h5>നരണങ്ങ മിഠായി  <br /><br /></h5>
-                            <div
-                              class="d-flex justify-content-between flex-lg-wrap"
-                            >
-                              <a
-                                href="#"
-                                class="btn border border-secondary rounded-pill px-3"
-                                style="color: #324e7a"
-                                >100₹</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="tab-4" class="tab-pane fade show p-0">
-              <div class="row g-4">
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ01.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h6>എത്രയുംപ്രിയമുള്ള എന്നോടും<br />ഒടുവിൽ,അവനോടും</h6>
-
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >120₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ02.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>ഇല്ല്യൂമിനാറ്റി <br /><br /></h5>
-
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >80₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ03.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>റഡീമർ <br /><br /></h5>
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >120₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ04.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>നാഗവേദം<br /><br /></h5>
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >140₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ05.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>നാഗകന്യക <br /><br /></h5>
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >140₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ06.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>പ്രണയ സുഗന്ധികൾ</h5>
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >100₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ07.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>പാതയോരം <br /><br /></h5>
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >100₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ08.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>ദ സീക്രട്ട് ഓപ്പസ്</h5>
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >120₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                  <div class="rounded position-relative fruite-item">
-                    <div class="fruite-img">
-                      <img
-                        src="img/നോവൽ09.svg"
-                        class="img-fluid w-100 rounded-top"
-                        alt=""
-                      />
-                    </div>
-
-                    <div
-                      class="p-4 border border-secondary border-top-0 rounded-bottom"
-                    >
-                      <h5>ഗോസ്റ്റ് റിട്ടേൺസ്</h5>
-                      <div class="d-flex justify-content-between flex-lg-wrap">
-                        <a
-                          href="#"
-                          class="btn border border-secondary rounded-pill px-3"
-                          style="color: #324e7a"
-                          >100₹</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Fruits Shop End-->
-
-    <!-- Featurs Start -->
-    <div class="container-fluid service py-5">
-      <div class="container py-5">
-        <div class="row g-4 justify-content-center">
-          <div class="col-md-6 col-lg-4">
-            <a href="#">
-              <div
-                class="service-item bg-secondary rounded border border-secondary"
-              >
-                <img
-                  src="img/featur-1.jpg"
-                  class="img-fluid rounded-top w-100"
-                  alt=""
-                />
-                <div class="px-4 rounded-bottom">
-                  <div
-                    class="service-content text-center p-4 rounded"
-                    style="background-color: #3770cc"
-                  >
-                    <h5 class="text-white">Exclusive Collection</h5>
-                    <h3 class="mb-0">20% OFF</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="#">
-              <div class="service-item bg-dark rounded border border-dark">
-                <img
-                  src="img/featur-2.jpg"
-                  class="img-fluid rounded-top w-100"
-                  alt=""
-                />
-                <div class="px-4 rounded-bottom">
-                  <div class="service-content bg-light text-center p-4 rounded">
-                    <h5 class="text-secondary">All Products</h5>
-                    <h3 class="mb-0">Free delivery</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="#">
-              <div
-                class="service-item rounded border border-primary"
-                style="background-color: #324e7a"
-              >
-                <img
-                  src="img/featur-3.jpg"
-                  class="img-fluid rounded-top w-100"
-                  alt=""
-                />
-                <div class="px-4 rounded-bottom">
-                  <div
-                    class="service-content bg-secondary text-center p-4 rounded"
-                  >
-                    <h5 class="text-white">Oldest collections</h5>
-                    <h3 class="mb-0">Discount 30₹</h3>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Featurs End -->
-
-    <!-- Vesitable Shop Start-->
-     <div class="container-fluid vesitable py-5">
-      <div class="container py-5">
-        <h1 class="mb-0">Exclusive collections</h1>
-        <div class="owl-carousel vegetable-carousel justify-content-center">
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/anubhava01.svg"
-                class="img-fluid w-100 rounded-top"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >അനുഭവക്കുറിപ്പ്
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h5>മാന്ത്രിക പരവതാനി <br><br></h5>
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >160₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/narmmam01.svg"
-                class="img-fluid w-100 rounded-top"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >
-            നർമ്മങ്ങൾ
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h4>50 നർമ്മങ്ങൾ <br><br></h4>
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >120₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/bala02.svg"
-                class="img-fluid w-100 rounded-top bg-light"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >
-            ബാലസാഹിത്യം
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h4>പാടാം ചെല്ലാം <br><br></h4>
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >120₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/ലേഖനങ്ങൾ02.svg"
-                class="img-fluid w-100 rounded-top"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >
-            ലേഖനങ്ങൾ
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h4>മൊകേരി വെടിവെപ്പ്</h4>
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >100₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/നോവൽ07.svg"
-                class="img-fluid w-100 rounded-top"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >
-            നോവൽ
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h4>പാതയോരം <br><br></h4>
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >100₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/കഥകൾ06.svg"
-                class="img-fluid w-100 rounded-top"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >
-              കഥകൾ
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h4>പെണ്ണുടൽ പെയ്ത്ത്</h4>
-            
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >120₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="border border-secondary rounded position-relative vesitable-item"
-          >
-            <div class="vesitable-img">
-              <img
-                src="img/കവിതകൾ2.svg"
-                class="img-fluid w-100 rounded-top"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-white bg-dark px-3 py-1 rounded position-absolute"
-              style="top: 10px; right: 10px"
-            >
-            കവിതകൾ
-            </div>
-            <div class="p-4 rounded-bottom">
-              <h5>അക്ഷരദക്ഷിണ <br><br></h5>
-              <div class="d-flex justify-content-between flex-lg-wrap">
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >150₹</a
-                >
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div> 
-    <!-- Vesitable Shop End -->
-
-    <!-- Banner Section Start-->
-    <div class="container-fluid banner my-5" style="background-color: #13afa6">
-      <div class="container py-5">
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-6">
-            <div class="py-4">
-              <h1 class="display-3 text-white">EXCLUSIVE BOOKS</h1>
-              <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
-              <p class="mb-4 text-dark">
-                Our store proudly offers a premium selection of exclusive books that cater to every reader's interest. From rare collectibles to latest releases, each book is handpicked for quality and uniqueness. Discover captivating stories and timeless classics that you won’t find anywhere else!
-              </p>
-              <a
-                href="booklist.html"
-                class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5"
-                >Visit</a
-              >
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="position-relative">
-              <img
-                src="img/banner.svg"
-                class="img-fluid w-100 rounded"
-                alt=""
-              />
-              <div
-                class="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute"
-                style="width: 140px; height: 140px; top: 0; left: 0"
-              >
-                <h1 style="font-size: 100px">1</h1>
-                <div class="d-flex flex-column">
-                  <span class="h2 mb-0">120₹</span>
-                  <span class="h4 text-muted mb-0">piece</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Banner Section End -->
-
-    <!-- Bestsaler Product Start -->
-    <!-- <div class="container-fluid py-5">
-      <div class="container py-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 700px">
-          <h1 class="display-4">Bestseller Products</h1>
-          <p>
-            Latin words, combined with a handful of model sentence structures,
-            to generate Lorem Ipsum which looks reasonable.
-          </p>
-        </div>
+  <div class="container-fluid fruite py-5">
+    <div class="container py-5">
+      <div class="tab-class text-center">
         <div class="row g-4">
-          <div class="col-lg-6 col-xl-4">
-            <div class="p-4 rounded bg-light">
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <img
-                    src="img/best-product-1.jpg"
-                    class="img-fluid rounded-circle w-100"
-                    alt=""
-                  />
+          <div class="col-lg-4 text-start">
+            <h1>Our Books Collection</h1>
+          </div>
+          <div class="col-lg-8 text-end">
+            <ul class="nav nav-pills d-inline-flex text-center mb-5">
+              <li class="nav-item">
+                <a class="d-flex m-2 py-2 bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                  <span class="text-dark" style="width: 160px">അനുഭവക്കുറിപ്പ്</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                  <span class="text-dark" style="width: 130px">നർമ്മങ്ങൾ</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                  <span class="text-dark" style="width: 160px">ബാലസാഹിത്യം</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                  <span class="text-dark" style="width: 130px">നോവൽ</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="d-flex m-2 py-2 bg-light rounded-pill" href="booklist.html">
+                  <span class="text-dark" style="width: 130px">more</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div id="tab-1" class="tab-pane fade show p-0 active">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/anubhava01.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>മാന്ത്രിക പരവതാനി</h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">160₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/anubhava02.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>അഹം <br /><br /></h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">100₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/anubhava03.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>നിഴൽവേരുകൾ <br /><br /></h5>
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">100₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/anubhava04.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>പേരില്ലാത്തവർ <br /><br /></h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">150₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-6">
-                  <a href="#" class="h5">അനുഭവക്കുറിപ്പ്</a>
-                  <div class="d-flex my-3">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
+              </div>
+            </div>
+          </div>
+          <div id="tab-2" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/narmmam01.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>50 നർമ്മങ്ങൾ <br><br></h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">120₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/narmmam02.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>പട്ടാളം പരമു <br /><br /></h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">100₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/narmmam03.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>മിനി നർമകഥകൾ</h5>
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">150₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab-3" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-lg-12">
+                <div class="row g-4">
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/bala01.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5 style="font-family: Noto Sans Malayalam" , serif;>
+                          എന്റെ മിന്നാമിന്നികൾ
+                        </h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">120₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/bala02.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>പാടാം ചെല്ലാം <br /><br /></h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">120₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/bala03.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5>തണ്ണിമത്തൻ<br /><br /></h5>
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">70₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="rounded position-relative fruite-item">
+                      <div class="fruite-img">
+                        <img src="img/bala04.svg" class="img-fluid w-100 rounded-top" alt="" />
+                      </div>
+
+                      <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h5 style="font-family: Noto Sans Malayalam" , serif;>
+                          കുഞ്ഞിമതുവിന്റെ സ്വപ്നയാത്ര
+                        </h5>
+
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                          <a href="#" class="btn border border-secondary rounded-pill px-3"
+                            style="color: #324e7a">120₹</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img src="img/bala05.svg" class="img-fluid w-100 rounded-top" alt="" />
+                        </div>
+
+                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                          <h5 style="font-family: Noto Sans Malayalam" , serif;>
+                            മനസിന്റെ വർണ്ണങ്ങൾ
+                          </h5>
+
+                          <div class="d-flex justify-content-between flex-lg-wrap">
+                            <a href="#" class="btn border border-secondary rounded-pill px-3"
+                              style="color: #324e7a">140₹</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img src="img/bala06.svg" class="img-fluid w-100 rounded-top" alt="" />
+                        </div>
+                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                          <h5>സാറ്റാൺ <br /><br /></h5>
+
+                          <div class="d-flex justify-content-between flex-lg-wrap">
+                            <a href="#" class="btn border border-secondary rounded-pill px-3"
+                              style="color: #324e7a">140₹</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img src="img/bala07.svg" class="img-fluid w-100 rounded-top" alt="" />
+                        </div>
+
+                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                          <h5>മധുര നെല്ലിക <br /><br /></h5>
+                          <div class="d-flex justify-content-between flex-lg-wrap">
+                            <a href="#" class="btn border border-secondary rounded-pill px-3"
+                              style="color: #324e7a">120₹</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img src="img/bala08.svg" class="img-fluid w-100 rounded-top" alt="" />
+                        </div>
+
+                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                          <h5>അമ്മുണ്ണിക്കഥകൾ <br /><br /></h5>
+
+                          <div class="d-flex justify-content-between flex-lg-wrap">
+                            <a href="#" class="btn border border-secondary rounded-pill px-3"
+                              style="color: #324e7a">120₹</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div class="rounded position-relative fruite-item">
+                        <div class="fruite-img">
+                          <img src="img/bala09.svg" class="img-fluid w-100 rounded-top" alt="" />
+                        </div>
+
+                        <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                          <h5>നരണങ്ങ മിഠായി <br /><br /></h5>
+                          <div class="d-flex justify-content-between flex-lg-wrap">
+                            <a href="#" class="btn border border-secondary rounded-pill px-3"
+                              style="color: #324e7a">100₹</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab-4" class="tab-pane fade show p-0">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ01.svg" class="img-fluid w-100 rounded-top" alt="" />
                   </div>
 
-                  <a
-                    href="#"
-                    class="btn border border-secondary rounded-pill px-3"
-                    style="color: #324e7a"
-                    >500₹</a
-                  >
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h6>എത്രയുംപ്രിയമുള്ള എന്നോടും<br />ഒടുവിൽ,അവനോടും</h6>
+
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">120₹</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-4">
-            <div class="p-4 rounded bg-light">
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <img
-                    src="img/best-product-2.jpg"
-                    class="img-fluid rounded-circle w-100"
-                    alt=""
-                  />
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ02.svg" class="img-fluid w-100 rounded-top" alt="" />
+                  </div>
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>ഇല്ല്യൂമിനാറ്റി <br /><br /></h5>
+
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">80₹</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-6">
-                  <a href="#" class="h5">POEM</a>
-                  <div class="d-flex my-3">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star"></i>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ03.svg" class="img-fluid w-100 rounded-top" alt="" />
                   </div>
 
-                  <a
-                    href="#"
-                    class="btn border border-secondary rounded-pill px-3"
-                    style="color: #324e7a"
-                    >500₹</a
-                  >
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>റഡീമർ <br /><br /></h5>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">120₹</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-4">
-            <div class="p-4 rounded bg-light">
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <img
-                    src="img/best-product-3.jpg"
-                    class="img-fluid rounded-circle w-100"
-                    alt=""
-                  />
-                </div>
-                <div class="col-6">
-                  <a href="#" class="h5">POEM</a>
-                  <div class="d-flex my-3">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star"></i>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ04.svg" class="img-fluid w-100 rounded-top" alt="" />
                   </div>
 
-                  <a
-                    href="#"
-                    class="btn border border-secondary rounded-pill px-3"
-                    style="color: #324e7a"
-                    >500₹</a
-                  >
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>നാഗവേദം<br /><br /></h5>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">140₹</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-4">
-            <div class="p-4 rounded bg-light">
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <img
-                    src="img/best-product-4.jpg"
-                    class="img-fluid rounded-circle w-100"
-                    alt=""
-                  />
-                </div>
-                <div class="col-6">
-                  <a href="#" class="h5">POEM</a>
-                  <div class="d-flex my-3">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star"></i>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ05.svg" class="img-fluid w-100 rounded-top" alt="" />
                   </div>
 
-                  <a
-                    href="#"
-                    class="btn border border-secondary rounded-pill px-3"
-                    style="color: #324e7a"
-                    >500₹</a
-                  >
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>നാഗകന്യക <br /><br /></h5>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">140₹</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-4">
-            <div class="p-4 rounded bg-light">
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <img
-                    src="img/best-product-5.jpg"
-                    class="img-fluid rounded-circle w-100"
-                    alt=""
-                  />
-                </div>
-                <div class="col-6">
-                  <a href="#" class="h5">POEM</a>
-                  <div class="d-flex my-3">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star"></i>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ06.svg" class="img-fluid w-100 rounded-top" alt="" />
                   </div>
 
-                  <a
-                    href="#"
-                    class="btn border border-secondary rounded-pill px-3"
-                    style="color: #324e7a"
-                    >500₹</a
-                  >
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>പ്രണയ സുഗന്ധികൾ</h5>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">100₹</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-4">
-            <div class="p-4 rounded bg-light">
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <img
-                    src="img/best-product-6.jpg"
-                    class="img-fluid rounded-circle w-100"
-                    alt=""
-                  />
-                </div>
-                <div class="col-6">
-                  <a href="#" class="h5">POEM</a>
-                  <div class="d-flex my-3">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star"></i>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ07.svg" class="img-fluid w-100 rounded-top" alt="" />
                   </div>
 
-                  <a
-                    href="#"
-                    class="btn border border-secondary rounded-pill px-3"
-                    style="color: #324e7a"
-                    >500₹</a
-                  >
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>പാതയോരം <br /><br /></h5>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">100₹</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <br />
-          <hr />
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="text-center">
-              <img
-                src="img/fruite-item-1.jpg"
-                class="img-fluid rounded"
-                alt=""
-              />
-              <div class="py-4">
-                <a href="#" class="h5">POEM</a>
-                <div class="d-flex my-3 justify-content-center">
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star"></i>
-                </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ08.svg" class="img-fluid w-100 rounded-top" alt="" />
+                  </div>
 
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >500₹</a
-                >
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>ദ സീക്രട്ട് ഓപ്പസ്</h5>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">120₹</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="text-center">
-              <img
-                src="img/fruite-item-2.jpg"
-                class="img-fluid rounded"
-                alt=""
-              />
-              <div class="py-4">
-                <a href="#" class="h5">POEM</a>
-                <div class="d-flex my-3 justify-content-center">
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star"></i>
-                </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="rounded position-relative fruite-item">
+                  <div class="fruite-img">
+                    <img src="img/നോവൽ09.svg" class="img-fluid w-100 rounded-top" alt="" />
+                  </div>
 
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >500₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="text-center">
-              <img
-                src="img/fruite-item-3.jpg"
-                class="img-fluid rounded"
-                alt=""
-              />
-              <div class="py-4">
-                <a href="#" class="h5">POEM</a>
-                <div class="d-flex my-3 justify-content-center">
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star"></i>
+                  <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                    <h5>ഗോസ്റ്റ് റിട്ടേൺസ്</h5>
+                    <div class="d-flex justify-content-between flex-lg-wrap">
+                      <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">100₹</a>
+                    </div>
+                  </div>
                 </div>
-
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >500₹</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="text-center">
-              <img
-                src="img/fruite-item-4.jpg"
-                class="img-fluid rounded"
-                alt=""
-              />
-              <div class="py-2">
-                <a href="#" class="h5">POEM</a>
-                <div class="d-flex my-3 justify-content-center">
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star text-secondary"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-
-                <a
-                  href="#"
-                  class="btn border border-secondary rounded-pill px-3"
-                  style="color: #324e7a"
-                  >500₹</a
-                >
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <hr /> -->
-    <!-- Bestsaler Product End -->
+  </div>
+  <!-- Fruits Shop End-->
 
-    <!-- Fact Start -->
-    <div class="container-fluid py-5">
-      <div class="container">
-        <div class="bg-light p-5 rounded">
-          <div class="row g-4 justify-content-center">
-            <div class="col-md-6 col-lg-6 col-xl-3">
-              <div class="counter bg-white rounded p-5">
-                <i class="fa fa-users text-secondary"></i>
-                <h4>satisfied customers</h4>
-                <h1>1963</h1>
+  <!-- Featurs Start -->
+  <div class="container-fluid service py-5">
+    <div class="container py-5">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <a href="#">
+            <div class="service-item bg-secondary rounded border border-secondary">
+              <img src="img/featur-1.jpg" class="img-fluid rounded-top w-100" alt="" />
+              <div class="px-4 rounded-bottom">
+                <div class="service-content text-center p-4 rounded" style="background-color: #3770cc">
+                  <h5 class="text-white">Exclusive Collection</h5>
+                  <h3 class="mb-0">20% OFF</h3>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-xl-3">
-              <div class="counter bg-white rounded p-5">
-                <i class="fa fa-users text-secondary"></i>
-                <h4>quality of service</h4>
-                <h1>99%</h1>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a href="#">
+            <div class="service-item bg-dark rounded border border-dark">
+              <img src="img/featur-2.jpg" class="img-fluid rounded-top w-100" alt="" />
+              <div class="px-4 rounded-bottom">
+                <div class="service-content bg-light text-center p-4 rounded">
+                  <h5 class="text-secondary">All Products</h5>
+                  <h3 class="mb-0">Manjari Books</h3>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-xl-3">
-              <div class="counter bg-white rounded p-5">
-                <i class="fa fa-users text-secondary"></i>
-                <h4>quality certificates</h4>
-                <h1>33</h1>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a href="#">
+            <div class="service-item rounded border border-primary" style="background-color: #324e7a">
+              <img src="img/featur-3.jpg" class="img-fluid rounded-top w-100" alt="" />
+              <div class="px-4 rounded-bottom">
+                <div class="service-content bg-secondary text-center p-4 rounded">
+                  <h5 class="text-white">Oldest collections</h5>
+                  <h3 class="mb-0">Discount 30₹</h3>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-xl-3">
-              <div class="counter bg-white rounded p-5">
-                <i class="fa fa-users text-secondary"></i>
-                <h4>Available Products</h4>
-                <h1>789</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Featurs End -->
+
+  <!-- Vesitable Shop Start-->
+  <div class="container-fluid vesitable py-5">
+    <div class="container py-5">
+      <h1 class="mb-0">Exclusive collections</h1>
+      <div class="owl-carousel vegetable-carousel justify-content-center">
+        <div class="border border-secondary rounded position-relative vesitable-item">
+          <div class="vesitable-img">
+            <img src="img/anubhava01.svg" class="img-fluid w-100 rounded-top" alt="" />
+          </div>
+          <div class="text-white bg-dark px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px">
+            അനുഭവക്കുറിപ്പ്
+          </div>
+          <div class="p-4 rounded-bottom">
+            <h5>മാന്ത്രിക പരവതാനി <br><br></h5>
+            <div class="d-flex justify-content-between flex-lg-wrap">
+              <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">160₹</a>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary rounded position-relative vesitable-item">
+          <div class="vesitable-img">
+            <img src="img/narmmam01.svg" class="img-fluid w-100 rounded-top" alt="" />
+          </div>
+          <div class="text-white bg-dark px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px">
+            നർമ്മങ്ങൾ
+          </div>
+          <div class="p-4 rounded-bottom">
+            <h4>50 നർമ്മങ്ങൾ <br><br></h4>
+            <div class="d-flex justify-content-between flex-lg-wrap">
+              <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">120₹</a>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary rounded position-relative vesitable-item">
+          <div class="vesitable-img">
+            <img src="img/bala02.svg" class="img-fluid w-100 rounded-top bg-light" alt="" />
+          </div>
+          <div class="text-white bg-dark px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px">
+            ബാലസാഹിത്യം
+          </div>
+          <div class="p-4 rounded-bottom">
+            <h4>പാടാം ചെല്ലാം <br><br></h4>
+            <div class="d-flex justify-content-between flex-lg-wrap">
+              <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">120₹</a>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary rounded position-relative vesitable-item">
+          <div class="vesitable-img">
+            <img src="img/ലേഖനങ്ങൾ02.svg" class="img-fluid w-100 rounded-top" alt="" />
+          </div>
+          <div class="text-white bg-dark px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px">
+            ലേഖനങ്ങൾ
+          </div>
+          <div class="p-4 rounded-bottom">
+            <h4>മൊകേരി വെടിവെപ്പ്</h4>
+            <div class="d-flex justify-content-between flex-lg-wrap">
+              <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">100₹</a>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary rounded position-relative vesitable-item">
+          <div class="vesitable-img">
+            <img src="img/നോവൽ07.svg" class="img-fluid w-100 rounded-top" alt="" />
+          </div>
+          <div class="text-white bg-dark px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px">
+            നോവൽ
+          </div>
+          <div class="p-4 rounded-bottom">
+            <h4>പാതയോരം <br><br></h4>
+            <div class="d-flex justify-content-between flex-lg-wrap">
+              <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">100₹</a>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary rounded position-relative vesitable-item">
+          <div class="vesitable-img">
+            <img src="img/കഥകൾ06.svg" class="img-fluid w-100 rounded-top" alt="" />
+          </div>
+          <div class="text-white bg-dark px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px">
+            കഥകൾ
+          </div>
+          <div class="p-4 rounded-bottom">
+            <h4>പെണ്ണുടൽ പെയ്ത്ത്</h4>
+
+            <div class="d-flex justify-content-between flex-lg-wrap">
+              <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">120₹</a>
+            </div>
+          </div>
+        </div>
+        <div class="border border-secondary rounded position-relative vesitable-item">
+          <div class="vesitable-img">
+            <img src="img/കവിതകൾ2.svg" class="img-fluid w-100 rounded-top" alt="" />
+          </div>
+          <div class="text-white bg-dark px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px">
+            കവിതകൾ
+          </div>
+          <div class="p-4 rounded-bottom">
+            <h5>അക്ഷരദക്ഷിണ <br><br></h5>
+            <div class="d-flex justify-content-between flex-lg-wrap">
+              <a href="#" class="btn border border-secondary rounded-pill px-3" style="color: #324e7a">150₹</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Vesitable Shop End -->
+
+  <!-- Banner Section Start-->
+  <div class="container-fluid banner my-5" style="background-color: #13afa6">
+    <div class="container py-5">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <div class="py-4">
+            <h1 class="display-3 text-white">EXCLUSIVE BOOKS</h1>
+            <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
+            <p class="mb-4 text-dark">
+              Our store proudly offers a premium selection of exclusive books that cater to every reader's interest.
+              From rare collectibles to latest releases, each book is handpicked for quality and uniqueness. Discover
+              captivating stories and timeless classics that you won’t find anywhere else!
+            </p>
+            <a href="booklist.html"
+              class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">Visit</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="position-relative">
+            <img src="img/banner.svg" class="img-fluid w-100 rounded" alt="" />
+            <div class="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute"
+              style="width: 140px; height: 140px; top: 0; left: 0">
+              <h1 style="font-size: 100px">1</h1>
+              <div class="d-flex flex-column">
+                <span class="h2 mb-0">120₹</span>
+                <span class="h4 text-muted mb-0">piece</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Fact Start -->
+  </div>
+  <!-- Banner Section End -->
 
-    <!-- Tastimonial Start -->
-    <div class="container-fluid testimonial py-5">
-      <div class="container py-5">
-        <div class="testimonial-header text-center">
-          <h4 class="text-secondary">Our Testimonial</h4>
-          <h1 class="display-5 mb-5 text-dark">Our Client Saying!</h1>
+
+
+  <!-- Fact Start -->
+  <div class="container-fluid py-5">
+    <div class="container">
+      <div class="bg-light p-5 rounded">
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="counter bg-white rounded p-5">
+              <i class="fa fa-users text-secondary"></i>
+              <h4>satisfied customers</h4>
+              <h1>1963</h1>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="counter bg-white rounded p-5">
+              <i class="fa fa-users text-secondary"></i>
+              <h4>quality of service</h4>
+              <h1>99%</h1>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="counter bg-white rounded p-5">
+              <i class="fa fa-users text-secondary"></i>
+              <h4>quality certificates</h4>
+              <h1>33</h1>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="counter bg-white rounded p-5">
+              <i class="fa fa-users text-secondary"></i>
+              <h4>Available Products</h4>
+              <h1>789</h1>
+            </div>
+          </div>
         </div>
-        <div class="owl-carousel testimonial-carousel">
-          <div class="testimonial-item img-border-radius bg-light rounded p-4">
-            <div class="position-relative">
-              <i
-                class="fa fa-quote-right fa-2x text-secondary position-absolute"
-                style="bottom: 30px; right: 0"
-              ></i>
-              <div class="mb-4 pb-4 border-bottom border-secondary">
-                <p class="mb-0">
-                  "My experience with Manjari Books has been wonderful. They offer a wide range of books with excellent quality, and I’ve always been impressed with their selection and service."
-                </p>
+      </div>
+    </div>
+  </div>
+  <!-- Fact Start -->
+
+  <!-- Tastimonial Start -->
+  <div class="container-fluid testimonial py-5">
+    <div class="container py-5">
+      <div class="testimonial-header text-center">
+        <h4 class="text-secondary">Our Testimonial</h4>
+        <h1 class="display-5 mb-5 text-dark">Our Client Saying!</h1>
+      </div>
+      <div class="owl-carousel testimonial-carousel">
+        <div class="testimonial-item img-border-radius bg-light rounded p-4">
+          <div class="position-relative">
+            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0"></i>
+            <div class="mb-4 pb-4 border-bottom border-secondary">
+              <p class="mb-0">
+                "My experience with Manjari Books has been wonderful. They offer a wide range of books with excellent
+                quality, and I’ve always been impressed with their selection and service."
+              </p>
+            </div>
+            <div class="d-flex align-items-center flex-nowrap">
+              <div class="bg-secondary rounded">
+                <img src="img/review.svg" class="img-fluid rounded" style="width: 100px; height: 100px" alt="" />
               </div>
-              <div class="d-flex align-items-center flex-nowrap">
-                <div class="bg-secondary rounded">
-                  <img
-                    src="img/review.svg"
-                    class="img-fluid rounded"
-                    style="width: 100px; height: 100px"
-                    alt=""
-                  />
-                </div>
-                <div class="ms-4 d-block">
-                  <h4 class="text-dark">Ahamed Basith</h4>
-                  <!-- <p class="m-0 pb-3">Profession</p> -->
-                  <div class="d-flex pe-5">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
+              <div class="ms-4 d-block">
+                <h4 class="text-dark">Ahamed Basith</h4>
+                <!-- <p class="m-0 pb-3">Profession</p> -->
+                <div class="d-flex pe-5">
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star"></i>
                 </div>
               </div>
             </div>
           </div>
-          <div class="testimonial-item img-border-radius bg-light rounded p-4">
-            <div class="position-relative">
-              <i
-                class="fa fa-quote-right fa-2x text-secondary position-absolute"
-                style="bottom: 30px; right: 0"
-              ></i>
-              <div class="mb-4 pb-4 border-bottom border-secondary">
-                <p class="mb-0">
-                  "I’ve had a great experience purchasing from Manjari Books. Their collection is diverse, and the quality of the books is top-notch, making every purchase a delightful one."
-                </p>
+        </div>
+        <div class="testimonial-item img-border-radius bg-light rounded p-4">
+          <div class="position-relative">
+            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0"></i>
+            <div class="mb-4 pb-4 border-bottom border-secondary">
+              <p class="mb-0">
+                "I’ve had a great experience purchasing from Manjari Books. Their collection is diverse, and the quality
+                of the books is top-notch, making every purchase a delightful one."
+              </p>
+            </div>
+            <div class="d-flex align-items-center flex-nowrap">
+              <div class="bg-secondary rounded">
+                <img src="img/review01.svg" class="img-fluid rounded" style="width: 100px; height: 100px" alt="" />
               </div>
-              <div class="d-flex align-items-center flex-nowrap">
-                <div class="bg-secondary rounded">
-                  <img
-                    src="img/review01.svg"
-                    class="img-fluid rounded"
-                    style="width: 100px; height: 100px"
-                    alt=""
-                  />
-                </div>
-                <div class="ms-4 d-block">
-                  <h4 class="text-dark">Adul M</h4>
-                  <!-- <p class="m-0 pb-3">Profession</p> -->
-                  <div class="d-flex pe-5">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                  </div>
+              <div class="ms-4 d-block">
+                <h4 class="text-dark">Adul M</h4>
+                <!-- <p class="m-0 pb-3">Profession</p> -->
+                <div class="d-flex pe-5">
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
                 </div>
               </div>
             </div>
           </div>
-          <div class="testimonial-item img-border-radius bg-light rounded p-4">
-            <div class="position-relative">
-              <i
-                class="fa fa-quote-right fa-2x text-secondary position-absolute"
-                style="bottom: 30px; right: 0"
-              ></i>
-              <div class="mb-4 pb-4 border-bottom border-secondary">
-                <p class="mb-0">
-                  "Manjari Books has consistently provided me with a fantastic selection of books. Their quality and service have always exceeded my expectations, making each purchase a pleasure."
-                </p>
+        </div>
+        <div class="testimonial-item img-border-radius bg-light rounded p-4">
+          <div class="position-relative">
+            <i class="fa fa-quote-right fa-2x text-secondary position-absolute" style="bottom: 30px; right: 0"></i>
+            <div class="mb-4 pb-4 border-bottom border-secondary">
+              <p class="mb-0">
+                "Manjari Books has consistently provided me with a fantastic selection of books. Their quality and
+                service have always exceeded my expectations, making each purchase a pleasure."
+              </p>
+            </div>
+            <div class="d-flex align-items-center flex-nowrap">
+              <div class="bg-secondary rounded">
+                <img src="img/review02.svg" class="img-fluid rounded" style="width: 100px; height: 100px" alt="" />
               </div>
-              <div class="d-flex align-items-center flex-nowrap">
-                <div class="bg-secondary rounded">
-                  <img
-                    src="img/review02.svg"
-                    class="img-fluid rounded"
-                    style="width: 100px; height: 100px"
-                    alt=""
-                  />
-                </div>
-                <div class="ms-4 d-block">
-                  <h4 class="text-dark">Shaima Raiheen</h4>
-                  <p class="m-0 pb-3">Profession</p>
-                  <div class="d-flex pe-5">
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                    <i class="fas fa-star text-secondary"></i>
-                  </div>
+              <div class="ms-4 d-block">
+                <h4 class="text-dark">Shaima Raiheen</h4>
+
+                <div class="d-flex pe-5">
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                  <i class="fas fa-star text-secondary"></i>
                 </div>
               </div>
             </div>
@@ -1878,109 +992,107 @@
         </div>
       </div>
     </div>
-    <!-- Tastimonial End -->
+  </div>
+  <!-- Tastimonial End -->
 
-  
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
-            <div class="container py-5">
-                <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
-                    <div class="row g-4">
-                        <div class="col-lg-3">
-                            <a href="#">
-                                <h1 style="color:white;">MANJARY </h1>
-                                <H2 class="text-secondary mb-0">BOOKS</H2>
-                            </a>
-                        </div>
-                         <div class="col-lg-3">
-                            <div class="d-flex justify-content-end pt-3" style="position: relative;left: 500px;">
-                                <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.instagram.com/manjari_books/"><i class="bi bi-instagram"></i></a>
-                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.facebook.com/profile.php?id=100063690447187"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://youtu.be/F9nJhZxOd1w?si=EGiJ8a1kZc57ftjo"><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="https://maps.app.goo.gl/xB3StK3Pajq5KPfeA"><i class="fas fa-map-marker-alt"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h4 class="text-light mb-3">Why People Like us!</h4>
-                            <p class="mb-4">"People love Manjari Books for their diverse collection and top-quality publications. Their excellent customer service and passion for delivering great reads make them a go-to choice for book lovers."</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                         <div class="d-flex flex-column text-start footer-item">
-                            <h4 class="text-light mb-3">Shop Info</h4>
-                            <a class="btn-link" href="About.html">About Us</a>
-                            <a class="btn-link" href="contact.html">Contact Us</a>
-                            <a class="btn-link" href="tel:8111989132">Privacy Policy</a>
-                            <a class="btn-link" href="tel:8111989132">Terms & Condition</a>
-                            <a class="btn-link" href="tel:8111989132">Return Policy</a>
-                            <a class="btn-link" href="tel:8111989132">FAQs & Help</a>
-                        </div>
-                    </div>
-                   
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-item">
-                            <h4 class="text-light mb-3">Contact</h4>
-                            Ground floor, Royal Garden college Road Kothamangalam
-                            <p>Email:manjaribooks2024@gmail.com</p>
-                            <a class="text-secondary" href="tel:8111989132">+91 8111989132</a>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
 
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright bg-dark py-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            <span class="text-light"
-              ><a style="color: yellow" href="#"
-                ><i class="fas fa-copyright text-light me-2"></i>Manjarybooks</a
-              ></span
-            >
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+    <div class="container py-5">
+      <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+        <div class="row g-4">
+          <div class="col-lg-3">
+            <a href="#">
+              <h1 style="color:white;">MANJARY </h1>
+              <H2 class="text-secondary mb-0">BOOKS</H2>
+            </a>
           </div>
-           <div class="col-md-6 my-auto text-center text-md-end text-white">
-                    
-                        Designed By <a style="color: yellow;" class="border-bottom" href="https://nexnovatechnologies.in/">Nexnova-technologies</a>
-                    </div>
+          <div class="col-lg-3">
+            <div class="d-flex justify-content-end pt-3" style="position: relative;left: 500px;">
+              <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle"
+                href="https://www.instagram.com/manjari_books/"><i class="bi bi-instagram"></i></a>
+              <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle"
+                href="https://www.facebook.com/profile.php?id=100063690447187"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle"
+                href="https://youtu.be/F9nJhZxOd1w?si=EGiJ8a1kZc57ftjo"><i class="fab fa-youtube"></i></a>
+              <a class="btn btn-outline-secondary btn-md-square rounded-circle"
+                href="https://maps.app.goo.gl/xB3StK3Pajq5KPfeA"><i class="fas fa-map-marker-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-item">
+            <h4 class="text-light mb-3">Why People Like us!</h4>
+            <p class="mb-4">"People love Manjari Books for their diverse collection and top-quality publications. Their
+              excellent customer service and passion for delivering great reads make them a go-to choice for book
+              lovers."</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="d-flex flex-column text-start footer-item">
+            <h4 class="text-light mb-3">Shop Info</h4>
+            <a class="btn-link" href="About.html">About Us</a>
+            <a class="btn-link" href="contact.html">Contact Us</a>
+            <a class="btn-link" href="tel:8111989132">Privacy Policy</a>
+            <a class="btn-link" href="tel:8111989132">Terms & Condition</a>
+            <a class="btn-link" href="tel:8111989132">Return Policy</a>
+            <a class="btn-link" href="tel:8111989132">FAQs & Help</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-item">
+            <h4 class="text-light mb-3">Contact</h4>
+            Ground floor, Royal Garden college Road Kothamangalam
+            <p>Email:manjaribooks2024@gmail.com</p>
+            <a class="text-secondary" href="tel:8111989132">+91 8111989132</a>
+
+          </div>
         </div>
       </div>
     </div>
-    <!-- Copyright End -->
+  </div>
+  <!-- Footer End -->
 
-    <!-- Back to Top -->
+  <!-- Copyright Start -->
+  <div class="container-fluid copyright bg-dark py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <span class="text-light"><a style="color: yellow" href="#"><i
+                class="fas fa-copyright text-light me-2"></i>Manjarybooks</a></span>
+        </div>
+        <div class="col-md-6 my-auto text-center text-md-end text-white">
 
-    <a
-      href="#"
-      class="btn btn-secondary border-3 border-secondary rounded-circle back-to-top"
-      ><i class="fa fa-arrow-up"></i
-    ></a>
-    <a
-      class="whatsapp-icon"
-      href="https://wa.me/+918111989132"
-      target="_blank"
-      style="text-decoration: none"
-      ><i class="fab fa-whatsapp"></i
-    ></a>
+          Designed By <a style="color: yellow;" class="border-bottom"
+            href="https://nexnovatechnologies.in/">Nexnova-technologies</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright End -->
 
-    <!-- JavaScript Libraries -->
-    <!-- Bootstrap Bundle with Popper -->
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <!-- Back to Top -->
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
+  <a href="#" class="btn btn-secondary border-3 border-secondary rounded-circle back-to-top"><i
+      class="fa fa-arrow-up"></i></a>
+  <a class="whatsapp-icon" href="https://wa.me/+918111989132" target="_blank" style="text-decoration: none"><i
+      class="fab fa-whatsapp"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <!-- Bootstrap Bundle with Popper -->
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
