@@ -149,3 +149,24 @@
 
 })(jQuery);
 
+// books and details send to whatsapp
+function sendToWhatsApp(bookName, price) {
+    var message = `📚 Book Name: ${bookName}%0A💰 Price: ${price}%0A🛒 I want to buy this book.`;
+    var phoneNumber = "918111989132"; // Replace with your WhatsApp number
+    var whatsappUrl = `https://wa.me/${918111989132}?text=${message}`;
+    
+    window.open(whatsappUrl, "_blank");
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".book-now-btn").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var bookCard = this.closest(".fruite-item");
+        var bookName = bookCard.querySelector("h5").innerText;
+        var price = bookCard.querySelectorAll("h5")[1].innerText;
+
+        sendToWhatsApp(bookName, price);
+      });
+    });
+  });
+
